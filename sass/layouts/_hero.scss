@@ -1,0 +1,23 @@
+.hero {
+  padding-top: 102px;
+}
+.hero__pretitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+  color: $main-title-color;
+  margin-bottom: 36px;
+}
+
+.hero__title {
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  color: $main-title-color;
+  margin-bottom: 24px;
+}
+
+.hero__text {
+  color: $second-text-color;
+  width: 400px;
+}

@@ -1,0 +1,25 @@
+.projects {
+  padding-top: 40px;
+}
+
+.projects__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: calc(27 / 22);
+  color: $main-title-color;
+  margin-bottom: 8px;
+}
+
+.projects__list {
+  font-weight: 700;
+  list-style-type: decimal;
+}
+
+.projects__item {
+  margin-bottom: 8px;
+  &:last-child {
+    margin-bottom: 0px;
+  }
+  font-weight: 400;
+}

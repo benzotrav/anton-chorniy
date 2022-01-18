@@ -1,0 +1,38 @@
+body {
+  font-family: Montserrat;
+  margin: 0px;
+}
+img {
+  max-width: 100%;
+}
+.btn {
+  cursor: pointer;
+}
+.list {
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+$main-title-color: #000000;
+$second-title-color: #fb6d3a;
+$main-text-color: #595959;
+$second-text-color: #a8a8a8;
+$third-text-color: #000000;
+$main-current-color: #ffffff;
+$second-current-color: #fb6d3a;
+$main-bg-color: #ffffff;
+$second-bg-color: #1e2939;
